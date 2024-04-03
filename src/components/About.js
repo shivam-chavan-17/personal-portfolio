@@ -27,9 +27,9 @@ function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded w-2/3"
             alt="hero"
-            src="./download.svg"
+            src="./desk.svg"
           />
         </div>
       </div>

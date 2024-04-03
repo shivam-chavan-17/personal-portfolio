@@ -20,8 +20,8 @@ function Navbar() {
           onClick={() => setIsOpen(!isOpen)}
           className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
         >
-          <MenuIcon className={`fill-current h-5 w-5 ${isOpen ? "hidden" : "block"}`} viewBox="0 0 20 20" />
-          <XIcon className={`fill-current h-5 w-5 ${isOpen ? "block" : "hidden"}`} viewBox="0 0 20 20" />
+          <MenuIcon className={`fill-current h-6 w-6 ${isOpen ? "hidden" : "block"}`} viewBox="0 0 20 20" />
+          <XIcon className={`fill-current h-6 w-6 ${isOpen ? "block" : "hidden"}`} viewBox="0 0 20 20" />
         </button>
       </div>
       <div
