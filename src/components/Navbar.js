@@ -1,7 +1,6 @@
-import { DownloadIcon, XIcon, MenuIcon } from "@heroicons/react/solid";
+import { XIcon, MenuIcon, ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import { useState } from "react";
-import { resume } from "../data";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,17 +42,13 @@ function Navbar() {
           <a href="#experience" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-white">
             Experience
           </a>
-          <a href="#contact" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-white">
-            Contact
-          </a>
         </div>
         <div>
           <a
-            href={resume}
-            download="ShivamChavanResume.pdf"
+            href="#contact"
             className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 ml-4 focus:outline-none hover:bg-gray-700 rounded text-lg mt-4 md:mt-0 text-white">
-            Resume
-            <DownloadIcon className="w-5 h-5 ml-1" />
+            Contact
+            <ArrowRightIcon className="h-4 w-4 ml-2" />
           </a>
         </div>
       </div>

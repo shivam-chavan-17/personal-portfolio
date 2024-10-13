@@ -19,13 +19,12 @@ export const projects = [
     code: "https://github.com/shivam-chavan-17/PlacementHelper",
   },
   {
-    title: "Tic Tac Toe",
+    title: "News App",
     subtitle: "HTML, CSS and Javascript",
     description:
-      "Enjoy Tic Tac Toe game. Created using HTML, CSS, and JavaScript, it offers classic gameplay.",
+      "A news website built with HTML, CSS, Javascript and News API. Get real-time updates, customisable feeds and a clean design.",
     image: "./projectImg/project-3.png",
-    link: "https://tic-tac-toe-6jbh.onrender.com",
-    code: "https://github.com/shivam-chavan-17/tic-tac-toe",
+    code: "https://github.com/shivam-chavan-17/News",
   },
   {
     title: "Note Taking App",
@@ -109,6 +108,19 @@ export const skills = [
 
 export const experience = [
   {
+    year: "Oct 2024 - Present",
+    role: "Full Stack Developer Intern",
+    company: "ArcSys Labs",
+    description: "Currently working on a Bootcamp Web Application project using React js, Node js, Express js, MongoDB and Tailwind css.",
+  },
+  {
+    year: "June 2024 - Aug 2024",
+    role: "Full Stack Developer Intern",
+    company: "BitTech Services",
+    description: "Successfully completed the company’s portfolio website using React.js, Tailwind CSS, and Web3 Forms. Successfully worked on a construction company website using WordPress, focusing on user-friendly navigation and seamless functionality",
+  },
+  
+  {
     year: "Jan 2023 - Mar 2023",
     role: "Web Developer Intern",
     company: "Cognifront Softwares",
@@ -117,5 +129,5 @@ export const experience = [
 ]
 
 export const resume=[
-  "./Shivam-Chavan-Resume.pdf",
+  "./Shivam Chavan Resume.pdf",
 ]
